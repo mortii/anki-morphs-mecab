@@ -8,6 +8,6 @@ find . -regex '^.*\(__pycache__\|\.py[co]\)$' -delete
 # meta.json is the local user's customized version of config.json, don't bundle this.
 rm meta.json
 
-zip -r ../ankimorphs-mecab.ankiaddon ./*
+zip -r ../ankimorphs_japanese_mecab.ankiaddon ./*
 
 cd ..
